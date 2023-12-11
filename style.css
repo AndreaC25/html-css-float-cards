@@ -24,3 +24,60 @@ h1{
 }
 
 /*fine header*/
+
+/*inzio costruzione box*/
+body{
+    
+    font-family: 'Nunito', sans-serif;
+}
+
+.clearfix::after{
+    content: ;
+    display: table;
+    clear: both;
+}
+
+.box{
+    float: left;
+    width: calc(100%/3);
+    padding: 20px;
+    color: white;
+}
+
+.card:nth-child(3n+1) {
+    padding-left: 0;
+}
+
+.card:nth-child(3n) {
+    padding-right: 0;
+}
+
+.box .box-inner{
+    background-color: black;
+    box-shadow: 8px 8px 10px rgba(0,0,0, 0.4);
+}
+
+.box .box-image {
+    float: left;
+    margin-right: 18px;
+
+}
+
+.box .box-image img {
+    float: left;
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
+.box .box-text {
+    text-align: left;
+    padding: 16px 0;
+}
+
+.box .box-text > * {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+/*fine costruzione box*/
