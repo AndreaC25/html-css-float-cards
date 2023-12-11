@@ -6,15 +6,16 @@
 
 /*Crezione e stilizzazione del mio header*/
 
-header{
-    margin-left: 400px;
-}
+
+
 
 .container{
-    
-   max-width: 690px;
+    margin-left: 60px;
+   max-width: 1366px;
    padding: 20px 10px 10px;
-   text-align: center;   
+   text-align: center;
+  
+   
 }
 
 h1{
@@ -23,12 +24,17 @@ h1{
     color: #E53170;
 }
 
+p{
+    font-family: 'Fredoka';
+}
 /*fine header*/
 
 /*inzio costruzione box*/
 body{
+     
     
-    font-family: 'Nunito', sans-serif;
+    
+    font-family: 'Fredoka', sans-serif;
 }
 
 .clearfix::after{
